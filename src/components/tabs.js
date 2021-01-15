@@ -26,7 +26,7 @@ divMain.classList.add('topics');
 
 
 topics.foreach(function (item){
-  const divTab = document.createElement('v');
+  const divTab = document.createElement('div');
   divTab.classList.add('tab');
   divTab.textContent = item;
   divMain.appendChild(divTab);

@@ -1,3 +1,4 @@
+
 const Card = (article) => {
   // TASK 5
   // ---------------------
@@ -17,6 +18,27 @@ const Card = (article) => {
   //   </div>
   // </div>
   //
+
+const divCard = document.createElement('div');
+divCard.classList.add('card');
+
+
+const divHead = document.createElement('div');
+divHead.classList.add('headline');
+divHead.textContent = data.headline;
+
+
+const divAuth = document.createElement('div');
+divAuth.classList.add('author');
+
+
+const divimg = document.createElement('div');
+divimg.classList.add('img-container');
+
+const span = document.createElement('div');
+
+
+
 }
 
 const cardAppender = (selector) => {
